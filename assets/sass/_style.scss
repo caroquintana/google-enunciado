@@ -1,0 +1,26 @@
+.navbar{
+	min-height:162px;
+	& .navbar-default{
+		background-color: transparent;
+		border-color: transparent;
+		& .container{
+			& .fa-search {
+				float: right;
+				font-size: 16px;
+				margin-top: 14px;
+			}
+			& .logogoogle {
+				margin-top: 30px;
+    			width: 30%; 
+			}
+			& .navbar-collapse{
+				& .navbar-nav{
+					float: none;
+					width: 37%;
+					margin: 0 auto;
+				}	
+			}
+		}		
+	}
+}
+

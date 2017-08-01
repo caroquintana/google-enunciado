@@ -32,20 +32,19 @@
 				}
 				& .one_title{
 					font-size: 31px;
-					margin-bottom: 20px;
+					margin-bottom: $marginstandar;
 				}
 				& .one_subtitle{
 					font-size: 16px;
 					font-weight: 600;
-					margin-bottom: 20px;
+					margin-bottom: $marginstandar;
 				}
 				& .box_text {
 					width: 57%;
 					margin-bottom: 40px;
 				}
 				hr{
-					margin-top: 70px;
-					border-top: 3px solid $azul;
+					@include parahr;
 				}
 				
 			}
@@ -56,30 +55,30 @@
 	& .container{
 		& .row{
 			& .boxnews{
-				margin-top: 40px;
+				margin-top: $margintopstandar;
 				& .two_title{
-					margin-bottom: 20px;
+					margin-bottom: $marginstandar;
 				}
 				& .two_img{
 					width: 100%;
-					margin-bottom: 20px;
+					margin-bottom: $marginstandar;
 				}
 			}
 			& .boxallnews{
-				margin-top: 40px;
+				margin-top: $margintopstandar;
 				& .two_tag{
 					color: $azul;
 					float: right;
-					margin-bottom: 20px;
+					margin-bottom: $marginstandar;
 				}
 				& .two_news {
-					margin-top: 20px;
+					margin-top: $marginstandar;
 				}
 				& .box_mail {
 					background-color: #F1F3F4;
 					border-radius: 7px;
 					padding: 18px;
-					margin-top: 40px;
+					margin-top: $margintopstandar;
 					& .row{
 						& .box_grande{
 							& .text_up{
@@ -98,8 +97,7 @@
 				}
 			}
 			& .hrdos{
-				margin-top: 100px;
-				border-top: 3px solid $azul;
+				@include parahr;
 			}
 		}
 	}
@@ -109,14 +107,13 @@
 		& .row{
 			& .division{
 				hr{
-					border-top: 3px solid $azul;
-					margin-top: 100px;
+					@include parahr;
 				}
 			}
 		}
 		& .row{
 			& .thirdbox{
-				margin-top: 40px;
+				margin-top: $margintopstandar;
 				& .cases{
 					margin-bottom: 25px;
 					& .third_img{
@@ -124,8 +121,8 @@
 					}
 				}
 			}
-			& .thirdboxx{
-				margin-top: 40px;
+			& .thirdboxdos{
+				margin-top: $margintopstandar;
 				& .cases{
 					margin-bottom: 25px;
 					& .third_img{
@@ -142,8 +139,7 @@ footer{
 		& .row{
 			& .division{
 				hr{
-					border-top: 3px solid $azul;
-					margin-top: 100px;
+					@include parahr;
 				}
 			}
 		}
@@ -151,31 +147,28 @@ footer{
 			margin-top: 100px;
 			& .foouno{
 				& .footer_title{
-					font-size: 14px;
-					font-weight: 600;
+					@include footstandar;
 				}
 				& .footer_description{
-					font-size: 12px;
+					font-size: $sizefontfoot;
 				}
 			}
 			& .foodos{
 				& .footer_title{
-				font-size: 14px;
-				font-weight: 600;
+					@include footstandar;
 				}
 				& .footlist{
-				font-size: 12px;
+					font-size: $sizefontfoot;
 				}
 			}	
 			& .footres{
 				& .footer_title{
-					font-size: 14px;
-					font-weight: 600;
+					@include footstandar;
 					}
 				& .listadividida{
 					padding: 0;
 					& .footlist{
-						font-size: 12px;
+						font-size: $sizefontfoot;
 					}
 				}
 			}	

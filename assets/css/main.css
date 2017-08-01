@@ -5837,7 +5837,7 @@ button.close {
   width: 57%;
   margin-bottom: 40px; }
 .one_method .container .row .boxmethod hr {
-  margin-top: 70px;
+  margin-top: 100px;
   border-top: 3px solid #4285f4; }
 
 .two_newsfeed .container .row .boxnews {
@@ -5870,24 +5870,24 @@ button.close {
   border-top: 3px solid #4285f4; }
 
 .third_photos .container .row .division hr {
-  border-top: 3px solid #4285f4;
-  margin-top: 100px; }
+  margin-top: 100px;
+  border-top: 3px solid #4285f4; }
 .third_photos .container .row .thirdbox {
   margin-top: 40px; }
   .third_photos .container .row .thirdbox .cases {
     margin-bottom: 25px; }
     .third_photos .container .row .thirdbox .cases .third_img {
       width: 100%; }
-.third_photos .container .row .thirdboxx {
+.third_photos .container .row .thirdboxdos {
   margin-top: 40px; }
-  .third_photos .container .row .thirdboxx .cases {
+  .third_photos .container .row .thirdboxdos .cases {
     margin-bottom: 25px; }
-    .third_photos .container .row .thirdboxx .cases .third_img {
+    .third_photos .container .row .thirdboxdos .cases .third_img {
       width: 100%; }
 
 footer .container .row .division hr {
-  border-top: 3px solid #4285f4;
-  margin-top: 100px; }
+  margin-top: 100px;
+  border-top: 3px solid #4285f4; }
 footer .container .contfoo {
   margin-top: 100px; }
   footer .container .contfoo .foouno .footer_title {

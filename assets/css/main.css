@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -5822,5 +5823,29 @@ button.close {
       float: none;
       width: 37%;
       margin: 0 auto; }
+
+.one_method .container .row .boxmethod .img_one {
+  width: 100%; }
+.one_method .container .row .boxmethod .one_title {
+  font-size: 23px; }
+.one_method .container .row .boxmethod .one_subtitle {
+  font-size: 16px;
+  font-weight: 600; }
+.one_method .container .row .boxmethod .box_text {
+  width: 57%;
+  margin-bottom: 40px; }
+.one_method .container .row .boxmethod hr {
+  margin-top: 70px;
+  border-top: 3px solid #4285f4; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #414549; }
 
 /*# sourceMappingURL=main.css.map */

@@ -31,11 +31,13 @@
 					width: 100%;
 				}
 				& .one_title{
-					font-size: 23px;
+					font-size: 31px;
+					margin-bottom: 20px;
 				}
 				& .one_subtitle{
 					font-size: 16px;
 					font-weight: 600;
+					margin-bottom: 20px;
 				}
 				& .box_text {
 					width: 57%;
@@ -47,6 +49,89 @@
 				}
 				
 			}
+		}
+	}
+}
+.two_newsfeed{
+	& .container{
+		& .row{
+			& .boxnews{
+				margin-top: 40px;
+				& .two_title{
+					margin-bottom: 20px;
+				}
+				& .two_img{
+					width: 100%;
+					margin-bottom: 20px;
+				}
+			}
+			& .boxallnews{
+				margin-top: 40px;
+				& .two_tag{
+					color: $azul;
+					float: right;
+					margin-bottom: 20px;
+				}
+				& .two_news {
+					margin-top: 20px;
+				}
+				& .box_mail {
+					background-color: #F1F3F4;
+					border-radius: 7px;
+					padding: 18px;
+					margin-top: 40px;
+					& .row{
+						& .box_grande{
+							& .text_up{
+							}
+							& .text_sign{
+								color: $azul;
+							}
+						}
+						& .box_chico{
+							& .img_gd {
+								float: right;
+								margin-right: 26px;
+							}
+						}
+					}
+				}
+			}
+			& .hrdos{
+				margin-top: 100px;
+				border-top: 3px solid $azul;
+			}
+		}
+	}
+}
+.third_photos{
+	& .container{
+		& .row{
+			& .division{
+				hr{
+					border-top: 3px solid $azul;
+					margin-top: 100px;
+				}
+			}
+		}
+		& .row{
+			& .thirdbox{
+				margin-top: 40px;
+				& .cases{
+					& .third_img{
+						width: 100%;
+					}
+				}
+			}
+			& .thirdboxx{
+				margin-top: 40px;
+				& .cases{
+					& .third_img{
+						width: 100%;
+					}
+				}
+			}
+
 		}
 	}
 }

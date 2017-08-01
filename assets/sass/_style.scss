@@ -118,6 +118,7 @@
 			& .thirdbox{
 				margin-top: 40px;
 				& .cases{
+					margin-bottom: 25px;
 					& .third_img{
 						width: 100%;
 					}
@@ -126,6 +127,7 @@
 			& .thirdboxx{
 				margin-top: 40px;
 				& .cases{
+					margin-bottom: 25px;
 					& .third_img{
 						width: 100%;
 					}
@@ -152,8 +154,50 @@ footer{
 					font-size: 14px;
 					font-weight: 600;
 				}
-				& .footer_description {
+				& .footer_description{
 					font-size: 12px;
+				}
+			}
+			& .foodos{
+				& .footer_title{
+				font-size: 14px;
+				font-weight: 600;
+				}
+				& .footlist{
+				font-size: 12px;
+				}
+			}	
+			& .footres{
+				& .footer_title{
+					font-size: 14px;
+					font-weight: 600;
+					}
+				& .listadividida{
+					padding: 0;
+					& .footlist{
+						font-size: 12px;
+					}
+				}
+			}	
+		}
+		& .row{
+			& .divfinal{
+				& .hrdos{
+					border-top: 3px solid lightgray;
+					margin-top: 100px;
+					margin-bottom: 60px;
+				}
+			}
+		}
+		& .row{
+			& .divprivacy{
+				margin-bottom: 60px;
+				& .logofooter{
+					width: 3%;
+				}
+				& .privacy{
+					float: right;
+					color: gray;
 				}
 			}
 		}

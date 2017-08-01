@@ -5874,12 +5874,16 @@ button.close {
   margin-top: 100px; }
 .third_photos .container .row .thirdbox {
   margin-top: 40px; }
-  .third_photos .container .row .thirdbox .cases .third_img {
-    width: 100%; }
+  .third_photos .container .row .thirdbox .cases {
+    margin-bottom: 25px; }
+    .third_photos .container .row .thirdbox .cases .third_img {
+      width: 100%; }
 .third_photos .container .row .thirdboxx {
   margin-top: 40px; }
-  .third_photos .container .row .thirdboxx .cases .third_img {
-    width: 100%; }
+  .third_photos .container .row .thirdboxx .cases {
+    margin-bottom: 25px; }
+    .third_photos .container .row .thirdboxx .cases .third_img {
+      width: 100%; }
 
 footer .container .row .division hr {
   border-top: 3px solid #4285f4;
@@ -5891,6 +5895,29 @@ footer .container .contfoo {
     font-weight: 600; }
   footer .container .contfoo .foouno .footer_description {
     font-size: 12px; }
+  footer .container .contfoo .foodos .footer_title {
+    font-size: 14px;
+    font-weight: 600; }
+  footer .container .contfoo .foodos .footlist {
+    font-size: 12px; }
+  footer .container .contfoo .footres .footer_title {
+    font-size: 14px;
+    font-weight: 600; }
+  footer .container .contfoo .footres .listadividida {
+    padding: 0; }
+    footer .container .contfoo .footres .listadividida .footlist {
+      font-size: 12px; }
+footer .container .row .divfinal .hrdos {
+  border-top: 3px solid lightgray;
+  margin-top: 100px;
+  margin-bottom: 60px; }
+footer .container .row .divprivacy {
+  margin-bottom: 60px; }
+  footer .container .row .divprivacy .logofooter {
+    width: 3%; }
+  footer .container .row .divprivacy .privacy {
+    float: right;
+    color: gray; }
 
 * {
   margin: 0;
